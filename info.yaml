@@ -50,8 +50,11 @@ pinout:
   uio[7]: ""
 
   # Analog pins - you can add more if you use them, up to 8
-  ua[0]: "V+"
-  ua[1]: "V_"
+  ua[0]: "Vout"
+  ua[1]: "Vinp"
+  ua[2]: "Vinn"
+  ua[3]: "VoutM"
+  ua[4]: "VinM"
 
 # Do not change!
 yaml_version: 6
